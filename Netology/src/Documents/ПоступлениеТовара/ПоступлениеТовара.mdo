@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32d5227-aadf-485b-b4be-bd3ab2740fe9">
+  <producedTypes>
+    <objectType typeId="6a2e33e5-dde4-4d08-8a56-695016d593ff" valueTypeId="84fbfb7e-3d10-4f25-bfe3-2d7499a50b0c"/>
+    <refType typeId="b4e9905a-cb14-4fce-b26d-e7e4e9023d44" valueTypeId="10600989-2eab-4649-9d12-98298583f63d"/>
+    <selectionType typeId="1c44aaf6-6dd0-442f-912a-211e0572f9ce" valueTypeId="535cd6d6-ef3a-43b3-a398-f49aa3a87c78"/>
+    <listType typeId="b278a6c0-16ad-4b21-b35a-c987f3a69eb9" valueTypeId="167f7d8c-b404-4eb1-aa59-4b6c2188a0b9"/>
+    <managerType typeId="b26ac9e0-db55-4be8-9ba5-54ba914b0dcb" valueTypeId="bea2e117-ea0c-4fbb-9fa1-3dc0566b5d05"/>
+  </producedTypes>
+  <name>ПоступлениеТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Поступление товара</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Поступления товаров</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="45f4e42e-bd8e-438a-9b0e-a54a458811d3">
+    <name>Коментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коментарии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="712d0f02-b65e-4f62-a6f5-41b7f08fe8bd">
+    <producedTypes>
+      <objectType typeId="2417fa5f-ba0e-4d19-807d-4243412275bd" valueTypeId="026bf4a8-dc30-49d8-9139-11cdea31cfe0"/>
+      <rowType typeId="9db9dd01-87b8-46b9-b8ab-7af8bbe4a123" valueTypeId="40141d8d-5ecd-4f3e-a329-2440a459f4c5"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Document>

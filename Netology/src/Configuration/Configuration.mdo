@@ -37,4 +37,5 @@
   </languages>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Производитель</catalogs>
+  <documents>Document.ПоступлениеТовара</documents>
 </mdclass:Configuration>
