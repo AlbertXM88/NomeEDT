@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7d9d62b-dfa7-4e46-a5d1-4c778a9ab6c6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7d9d62b-dfa7-4e46-a5d1-4c778a9ab6c6">
   <producedTypes>
     <objectType typeId="114354bd-7cdd-441b-a8fc-effb125ede2d" valueTypeId="2ba65fdc-5012-449a-ba7d-2d21224034f1"/>
     <refType typeId="952501fd-365b-48b5-84cb-f269f32a99da" valueTypeId="2c0ed9fa-57f1-4438-a6c6-1a2c48627f2b"/>
@@ -38,4 +38,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cf240af2-f72b-4443-9692-6d53caf8d76b">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
