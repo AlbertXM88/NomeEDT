@@ -59,5 +59,19 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
+    <attributes uuid="451c81c1-ad47-4050-8fd5-ce48564b86ae">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
 </mdclass:Document>
